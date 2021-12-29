@@ -1,5 +1,5 @@
 # H100i-Control-UI-Linux
-User interface to control H100i water cooler<br><br>
+User interface to control H100i water cooler on Linux<br><br>
 You must have opencorsairlink.<br><br>
 First, install snap:<br>
   sudo apt install snapd<br><br>
