@@ -1,0 +1,203 @@
+object Form1: TForm1
+  Left = 443
+  Height = 640
+  Top = 202
+  Width = 480
+  BorderStyle = bsSingle
+  Caption = 'H100i Control UI (beta)'
+  ClientHeight = 640
+  ClientWidth = 480
+  LCLVersion = '2.2.0.2'
+  object Label1: TLabel
+    Left = 0
+    Height = 45
+    Top = 0
+    Width = 480
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'H100i Control UI (beta)'
+    Color = 12485389
+    Font.Color = clWhite
+    Font.Height = -32
+    Font.Style = [fsBold]
+    ParentFont = False
+    Transparent = False
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 0
+    Height = 37
+    Top = 87
+    Width = 480
+    Align = alTop
+    Enabled = False
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 0
+    Height = 21
+    Top = 66
+    Width = 480
+    Align = alTop
+    Caption = 'Device ID'
+  end
+  object GroupBox1: TGroupBox
+    Left = 0
+    Height = 190
+    Top = 124
+    Width = 480
+    Align = alTop
+    AutoSize = True
+    Caption = 'LED'
+    ClientHeight = 168
+    ClientWidth = 478
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    object RadioGroup1: TRadioGroup
+      Left = 8
+      Height = 47
+      Top = 8
+      Width = 462
+      Align = alTop
+      AutoFill = True
+      AutoSize = True
+      BorderSpacing.Around = 8
+      Caption = 'Mode'
+      ChildSizing.LeftRightSpacing = 6
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclLeftToRightThenTopToBottom
+      ChildSizing.ControlsPerLine = 1
+      ClientHeight = 25
+      ClientWidth = 460
+      Enabled = False
+      ItemIndex = 0
+      Items.Strings = (
+        'Static'
+      )
+      ParentFont = False
+      TabOrder = 0
+    end
+    object RadioGroup2: TRadioGroup
+      Left = 8
+      Height = 97
+      Top = 63
+      Width = 462
+      Align = alTop
+      AutoFill = True
+      AutoSize = True
+      BorderSpacing.Around = 8
+      Caption = 'Color'
+      ChildSizing.LeftRightSpacing = 6
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclLeftToRightThenTopToBottom
+      ChildSizing.ControlsPerLine = 3
+      ClientHeight = 75
+      ClientWidth = 460
+      Columns = 3
+      ItemIndex = 8
+      Items.Strings = (
+        'White'
+        'Red'
+        'Green'
+        'Blue'
+        'Magenta'
+        'Yellow'
+        'Cyan'
+        'Orange'
+        'Unchanged'
+      )
+      ParentFont = False
+      TabOrder = 1
+    end
+  end
+  object Button1: TButton
+    Left = 0
+    Height = 64
+    Top = 399
+    Width = 480
+    Align = alTop
+    Caption = 'APPLY'
+    Font.Height = -21
+    Font.Style = [fsBold]
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Memo1: TMemo
+    Left = 0
+    Height = 177
+    Top = 463
+    Width = 480
+    Align = alClient
+    BorderStyle = bsNone
+    Font.Name = 'JetBrains Mono'
+    ParentFont = False
+    ScrollBars = ssAutoBoth
+    TabOrder = 3
+    WordWrap = False
+  end
+  object GroupBox2: TGroupBox
+    Left = 0
+    Height = 85
+    Top = 314
+    Width = 480
+    Align = alTop
+    AutoSize = True
+    Caption = 'FAN'
+    ClientHeight = 63
+    ClientWidth = 478
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    object RadioGroup3: TRadioGroup
+      Left = 8
+      Height = 47
+      Top = 8
+      Width = 462
+      Align = alTop
+      AutoFill = True
+      AutoSize = True
+      BorderSpacing.Around = 8
+      Caption = 'Mode'
+      ChildSizing.LeftRightSpacing = 6
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclLeftToRightThenTopToBottom
+      ChildSizing.ControlsPerLine = 4
+      ClientHeight = 25
+      ClientWidth = 460
+      Columns = 4
+      ItemIndex = 3
+      Items.Strings = (
+        'Quiet'
+        'Balanced'
+        'Performance'
+        'Unchanged'
+      )
+      ParentFont = False
+      TabOrder = 0
+    end
+  end
+  object Label3: TLabel
+    Left = 0
+    Height = 21
+    Top = 45
+    Width = 480
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'by: innarelnuar@gmail.com'
+    Color = 12485389
+    Font.Color = clSkyBlue
+    Font.Style = [fsBold]
+    ParentFont = False
+    Transparent = False
+  end
+end

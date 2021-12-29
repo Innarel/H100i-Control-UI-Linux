@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1625802185"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -gw3 -gl -l -vewnhibq -Fi/home/allison/Documentos/Projects/H100i_UI/lib/x86_64-linux -Fu/usr/share/lazarus/2.2.0RC2/lcl/units/x86_64-linux/gtk2 -Fu/usr/share/lazarus/2.2.0RC2/lcl/units/x86_64-linux -Fu/usr/share/lazarus/2.2.0RC2/components/freetype/lib/x86_64-linux -Fu/usr/share/lazarus/2.2.0RC2/components/lazutils/lib/x86_64-linux -Fu/usr/share/lazarus/2.2.0RC2/packager/units/x86_64-linux -Fu/home/allison/Documentos/Projects/H100i_UI/ -FU/home/allison/Documentos/Projects/H100i_UI/lib/x86_64-linux/ -FE/home/allison/Documentos/Projects/H100i_UI/ -o/home/allison/Documentos/Projects/H100i_UI/H100i_UI -dLCL -dLCLgtk2 H100i_UI.lpr"/>
+</CONFIG>
