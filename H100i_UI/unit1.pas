@@ -16,13 +16,17 @@ type
     Button1: TButton;
     GroupBox1: TGroupBox;
     GroupBox2: TGroupBox;
+    GroupBox3: TGroupBox;
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
     Memo1: TMemo;
     RadioGroup1: TRadioGroup;
     RadioGroup2: TRadioGroup;
     RadioGroup3: TRadioGroup;
+    RadioGroup4: TRadioGroup;
     SpinEdit1: TSpinEdit;
     procedure Button1Click(Sender: TObject);
   private
